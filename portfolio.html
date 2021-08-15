@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -12,49 +15,49 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <!--Навигация, телефон, почта-->
-        <nav class="nav">
-            <a class="logo link" href=""><span class="logo-web">Web</span>Studio</a>
-            <ul class="nav-menu">
-                <li class="nav-menu-item item">
-                    <a class="nav-link link" href="./index.html">Студия</a>
-                </li>
-                <li class="nav-menu-item item">
-                    <a class="nav-link link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="nav-menu-item item">
-                    <a class="nav-link link" href="">Контакты</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="header-contacts">
-            <li class="header-contacts-item item" >
-                <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+<header class="header">
+    <!--Навигация, телефон, почта-->
+    <nav class="nav">
+        <a class="logo link" href=""><span class="logo-web">Web</span>Studio</a>
+        <ul class="nav-menu">
+            <li class="nav-menu-item item">
+                <a class="nav-link link" href="./index.html">Студия</a>
             </li>
-            <li class="header-contacts-item item" >
-                <a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="nav-menu-item item">
+                <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-menu-item item">
+                <a class="nav-link link" href="">Контакты</a>
             </li>
         </ul>
-    </header>
+    </nav>
+    <ul class="header-contacts">
+        <li class="header-contacts-item item">
+            <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="header-contacts-item item">
+            <a class="hеader-phone link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+    </ul>
+</header>
     <main>
         <!-- Фильтр кнопок -->
         <div class="filters-button">
             <ul class="filters-button-list">
                 <li class="filters-button-item item">
-                    <button type="button">Все</button>
+                    <button class="btn active" type="button">Все</button>
                 </li>
                 <li class="filters-button-item item">
-                    <button type="button">Веб-сайты</button>
+                    <button class="btn" type="button">Веб-сайты</button>
                 </li>
                 <li class="filters-button-item item">
-                    <button type="button">Приложения</button>
+                    <button class="btn" type="button">Приложения</button>
                 </li>
                 <li class="filters-button-item item">
-                    <button type="button">Дизайн</button>
+                    <button class="btn" type="button">Дизайн</button>
                 </li>
                 <li class="filters-button-item item">
-                    <button type="button">Маркетинг</button>
+                    <button class="btn" type="button">Маркетинг</button>
                 </li>
             </ul>
         </div>
@@ -109,24 +112,24 @@
             </ul>
         </div>
     </main>
-    <footer>
-        <a class="logo" href=""><span class="logo-web">Web</span>Studio</a>
+    <footer class="footer">
+        <a class="logo link" href=""><span class="logo-web">Web</span>Studio</a>
         <address class="address">
             <ul class="footer-contacts">
-                <li class="footer-contacts-item"  >
-                    <a class="footer-address link" href="https://goo.gl/maps/BogTHz8jViNJvbwB7" target="_blank" rel="noopener noreferrer">г. Киев,
+                <li class="footer-contacts-item item">
+                    <a class="footer-address link" href="https://goo.gl/maps/BogTHz8jViNJvbwB7" target="_blank"
+                        rel="noopener noreferrer">г. Киев,
                         пр-т Леси Украинки, 26</a>
                 </li>
-                <li class="footer-contacts-item"  >
+                <li class="footer-contacts-item item">
                     <a class="footer-mail link" href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li class="footer-contacts-item"  >
+                <li class="footer-contacts-item item">
                     <a class="footer-phone link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
     </footer>
-
     
 </body>
 </html>

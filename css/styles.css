@@ -1,4 +1,228 @@
+:root {
+  --main-title-color: #212121;
+  --text-color: #757575;
+  --anti-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: #757575;
+}
+
+.item {
+  list-style: none;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+/* -------header-------- */
+
+.logo-web {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.header-mail,
+.hеader-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.hеader-phone:hover,
+.header-phone:focus,
+.footer-address:hover,
+.footer-address:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus {
+  color: var(--accent-color);
+}
+
+/* ---------hero------------ */
+
+.hero-button {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--anti-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--anti-color);
+}
+
+/* ------------------main------------------------- */
+
+.skills-titles {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.skills-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.command-name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+
+.command-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* ----------------btn-------------- */
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus,
+.active {
+  color: var(--anti-color);
+  background-color: var(--accent-color);
+}
+
+.filters-button-item:hover,
+.filters-button-item:focus {
+  color: var(--anti-color);
+}
+
+/* ---------portfolio--------- */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+.portfolio-list-item > .portfolio-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/* -------------footer----------------- */
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--anti-color);
+}
+
+/*    ----- Почему не работает???------ */
+.footer-address:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-mail,
+.footer-phone {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
+}
+
+.footer > .logo {
+  color: var(--anti-color);
+}
+
+.footer-contacts {
+  font-style: normal;
 }
